@@ -1,4 +1,5 @@
-          body {
+   
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -33,8 +34,7 @@
             border: 1px solid #ccc;
             box-sizing: border-box;
             text-align: center;
-            display: flex;
-            flex-direction: column;      
+            display: flexbox;
         }
         .product img {
             max-width: 100%;
@@ -44,10 +44,9 @@
             color: #fff;
             text-align: center;
             padding: 10px;
-            position: fixed;
+            position:fixed;
             bottom: 0;
             width: 100%;
         }
-        @media (max-width: 600px) {
-        } 
-
+        @media screen {max: width 800px;  
+        }
