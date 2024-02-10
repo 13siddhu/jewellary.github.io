@@ -33,6 +33,8 @@
             border: 1px solid #ccc;
             box-sizing: border-box;
             text-align: center;
+            display: flex;
+            flex-direction: column;      
         }
         .product img {
             max-width: 100%;
@@ -47,9 +49,5 @@
             width: 100%;
         }
         @media (max-width: 600px) {
-           .container {
-           display: flex;
-           flex-direction: column;
-           }
         } 
 
