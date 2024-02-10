@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgoldenrodyellow;
+        }
+        
+        .Payment2{
+            font-size: 25px;
+            background-color: mediumaquamarine;
+            border-style:groove;
+        }
+
+        .netbanking{
+            font-size: 25px;
+            background-color: mediumaquamarine;
+            border-style: ridge;
+        }
+
+        .cards{
+            font-size: 25px;
+            background-color: mediumaquamarine;
+            border-style:groove;
+        }
+
+        .Credit{
+            background-color: mediumaquamarin;
+            border-style: groove;
+        }
+
+        .details{
+            background-color: mediumaquamarine;
+            border-style: groove;
+        }
+
+        .lastp{
+            background-color: lightblue;
+            font: size 20px;
+        }
+        #ordershow{
+            font-size: 20px;
+            background-color:yellow;
+            border-radius: 100px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position:fixed;
+            bottom: 0;
+            width: 100%;
+            left: -6px;
+        }
+    </style>
+</head>
+<body style="font-size: larger;">
+    
+    <Div class="Payment" style=" padding: 5px; border-radius: 5px; box-shadow: 2px 2px 10px gray;">
+        <div class="Payment2">
+            <div class="Heading" style="font-weight: 600;">Payment Methods</div>
+            <div class="phonepa" style="display: flex; padding: 5px;">
+                <input type="radio" value="allowed value" name="thunder">
+                <div > PhonePe</div>
+            </div>
+        </div>
+        <div class="Net Banking" style=" box-shadow: 2px 2px 10px gray;">
+            <div class="netbanking" style="display: flex; padding: 5px;">
+                <input type="radio" name="thunder">
+                <div>Net Banking</div>
+            </div>
+        </div>
+
+        <div class="Credit" style=" box-shadow: 2px 2px 10px gray; height: 45px;">
+            <div class="cards" style="display: flex; padding: 5px;">
+                <input type="radio" name="thunder">
+                <div>Credit Card/Debit Card</div>
+            </div>
+            
+        </div>
+        <div class="details">
+            <div>
+                <input type="text" placeholder="Enter the Card No." style=" padding: 10px; border-radius: 10px;">
+            </div>
+            <div class="holder">
+                <input type="text" placeholder="Card Holder Name" style=" padding: 10px; border-radius: 10px;">
+            </div>
+            <div>
+                <input type="date" style=" padding: 10px; border-radius: 5px;">
+                <input type="text" placeholder="CVV" style="width: 50px; padding: 8px; border-radius: 5px;">
+            </div>
+        </div>    
+
+        <div class="Return" style=" box-shadow: 2px 2px 10px gray;">
+            <div class="lastp" style="display: flex; padding: 5px; justify-content: space-between;">
+                <div>Return To Shopping Page</div>
+                <button id="ordershow">Show Order</button>
+            </div>
+        </div>
+
+    </Div>
+
+   <footer>
+        <address>Ballia,Uttar Pradesh </address>
+        &copy; 2024 My Jewellery Store
+   </footer>
+    
+</body>
+</html>
+
