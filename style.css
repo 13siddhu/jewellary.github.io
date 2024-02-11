@@ -42,11 +42,19 @@
         footer {
             background-color: #333;
             color: #fff;
+            animation-name: color_change;
+            animation-duration: 2s;  
+            animation-iteration-count: infinite;
             text-align: center;
             padding: 10px;
             position:fixed;
             bottom: 0;
             width: 100%;
         }
+@keyframes color_change {
+            from {background-color: lightseagreen;}
+            to {background-color: lightsalmon;}
+        }
+
         @media screen {max: width 800px;  
         }
