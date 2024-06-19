@@ -65,7 +65,14 @@
                 display: block;
         }
 
-    section{
+   
+        img{
+                width: 100%;
+                display: block;
+                object-fit: cover;
+        }
+
+        section{
                 display: block;
                 text-align: center;
                 align-items: center;
