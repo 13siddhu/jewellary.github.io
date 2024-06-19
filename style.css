@@ -58,3 +58,10 @@
 
         @media screen {max: width 800px;  
         }
+
+
+@media(max-width : 600px){
+        body{
+                display: block;
+        }
+}
