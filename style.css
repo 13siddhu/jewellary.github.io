@@ -66,7 +66,24 @@
         }
 
    
-        img{
+        a{
+                display: inline-block;
+        }
+
+        .img1{
+                width: 100%;
+                display: block;
+                object-fit: cover;
+        }
+
+        .img2{
+                width: 100%;
+                display: block;
+                object-fit: cover;
+        }
+
+
+        .img3{
                 width: 100%;
                 display: block;
                 object-fit: cover;
